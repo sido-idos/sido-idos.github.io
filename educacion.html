@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@400;500;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <script src="assets/js/tailwind.config.js"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script defer="" src="assets/js/main.js"></script>
+</head>
+
+<body class="font-body selection:bg-primary/30">
+    <!-- Barra superior -->
+    <nav class="fixed top-0 w-full z-50 bg-slate-950/60 backdrop-blur-xl shadow-2xl shadow-slate-950/50">
+        <div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+            <div class="text-xl font-extrabold tracking-tighter text-indigo-400">Alejandro Abarca</div>
+            <div class="hidden md:flex items-center gap-8 font-['Manrope'] font-bold tracking-tight text-slate-100">
+                <a class="text-slate-400 hover:text-slate-100 transition-colors duration-300"
+                    href="inicio.html">Inicio</a>
+                <a class="text-indigo-400 border-b-2 border-indigo-500 pb-1" href="educacion.html">Educación</a>
+                <a class="text-slate-400 hover:text-slate-100 transition-colors duration-300"
+                    href="proyectos.html">Proyectos</a>
+                <a class="text-slate-400 hover:text-slate-100 transition-colors duration-300"
+                    href="desktop.html">Contacto</a>
+            </div>
+            <a class="w-full md:w-auto px-12 py-4 bg-indigo-400 text-slate-950 font-headline font-bold rounded-lg shadow-lg shadow-indigo-400/20 hover:shadow-indigo-400/40 active:scale-[0.98] transition-all duration-300 inline-block text-center"
+                download="cv.pdf" href="assets/cv.pdf">
+                Descargar CV
+            </a>
+        </div>
+    </nav>
+    <main class="pt-32 pb-20 px-8 max-w-7xl mx-auto">
+        <!-- Seccion principal -->
+        <header class="mb-20">
+            <div
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-bright/40 text-secondary mb-6 border border-outline-variant/20">
+                <span class="material-symbols-outlined text-sm">school</span>
+                <span class="font-label text-xs font-bold tracking-widest uppercase">Formación Académica</span>
+            </div>
+            <h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tight text-on-surface mb-6">
+                Educación <br /><span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-indigo-400 to-secondary">Certificaciones</span>
+            </h1>
+            <p class="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed">
+                Actualmente estudio Ingenieria en Informatica en INACAP y complemento mi formacion en desarrollo y
+                analisis de datos con programas intensivos de especializacion.
+            </p>
+        </header>
+        <!-- Seccion de linea de tiempo academica -->
+        <section class="mb-32">
+            <h2 class="font-headline text-3xl font-bold mb-12 flex items-center gap-4">
+                Grados Académicos
+                <div class="h-px grow bg-gradient-to-r from-outline-variant/50 to-transparent"></div>
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <!-- Universidad 1 -->
+                <div class="lg:col-span-8 group">
+                    <div
+                        class="bg-surface-container rounded-xl p-8 transition-all duration-500 hover:bg-surface-container-high relative overflow-hidden">
+                        <div class="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <span class="material-symbols-outlined text-8xl"
+                                style="font-variation-settings: 'FILL' 1;">account_balance</span>
+                        </div>
+                        <div class="relative z-10">
+                            <span class="font-label text-sm text-secondary font-bold mb-2 block">Actualidad</span>
+                            <h3 class="font-headline text-3xl font-bold text-on-surface mb-2">Ingenieria en Informatica
+                                (en curso)</h3>
+                            <p class="font-body text-lg text-primary-fixed mb-6 font-medium">INACAP</p>
+                            <div class="flex flex-wrap gap-3 mb-8">
+                                <span
+                                    class="bg-surface-bright/40 px-3 py-1 rounded-md text-xs font-label text-on-surface-variant border border-outline-variant/10">Programacion</span>
+                                <span
+                                    class="bg-surface-bright/40 px-3 py-1 rounded-md text-xs font-label text-on-surface-variant border border-outline-variant/10">Bases
+                                    de Datos</span>
+                                <span
+                                    class="bg-surface-bright/40 px-3 py-1 rounded-md text-xs font-label text-on-surface-variant border border-outline-variant/10">Desarrollo
+                                    Web</span>
+                                <span
+                                    class="bg-surface-bright/40 px-3 py-1 rounded-md text-xs font-label text-on-surface-variant border border-outline-variant/10">Analisis
+                                    de Datos</span>
+                            </div>
+                            <p class="text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-6">
+                                Profesional enfocado en el desarrollo de soluciones tecnologicas, con formacion en
+                                ingenieria de software, gestion de proyectos, analisis de datos y aplicacion de
+                                tecnologias de inteligencia artificial y Big Data. Orientado a la innovacion y la
+                                transformacion digital, con habilidades en trabajo colaborativo, comunicacion efectiva y
+                                aprendizaje continuo, aplicando buenas practicas de desarrollo y tecnologias actuales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de informacion complementaria -->
+                <div class="lg:col-span-4 flex flex-col gap-6">
+                    <div class="bg-surface-container-low rounded-xl p-6 border border-outline-variant/10">
+                        <h4 class="font-headline font-bold text-on-surface mb-4 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-secondary">verified</span>
+                            Formacion complementaria
+                        </h4>
+                        <ul class="space-y-4 text-sm text-on-surface-variant">
+                            <li class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
+                                Bootcamp Desarrollador de Aplicaciones Fullstack Python Trainee | Programa Talento Digital - SENCE Chile (OTEC ECAS).
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="rounded-xl overflow-hidden h-full min-h-[200px] relative group">
+                        <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                            data-alt="Biblioteca universitaria moderna con lineas arquitectonicas limpias, iluminacion ambiental suave y estudiantes concentrados en portatiles"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmYEBzEQAqanMRzkMJqyzqxC2ZzcnOVj1UepZL8IIdZ74FHn3WRq6k4JkRwLrQgFjAWAV72WzTWe2kznD643wkRksiZWXQ0E_fhjgPsdMw9iWugTNQIj81sKoh-HhXH1daKUKpzwMLDQ7sb7n5LLDT0ux2Ou3loQJWqHGkSkjIXnr3MmmmPxg90gVOtn5J-V-t40oKz12chXeCOX7KxvTob6Sqk0tgAzJ1ZdkaTuuae18jaHsUNtUa4d-X7TcqUc5rLMlhzQ3ELvK1" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Cuadricula bento de certificaciones -->
+        <section>
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+                <div>
+                    <h2 class="font-headline text-3xl font-bold mb-4">Certificaciones Técnicas</h2>
+                    <p class="text-on-surface-variant">Validaciones externas de mi stack tecnológico y habilidades
+                        especializadas.</p>
+                </div>
+                <div class="flex gap-2">
+                    <button
+                        class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined">filter_list</span>
+                    </button>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Tarjeta de certificacion 1: AWS -->
+                <div
+                    class="bg-surface-container-low p-1 rounded-xl group transition-all duration-300 hover:shadow-xl hover:shadow-primary/5">
+                    <div
+                        class="bg-surface-container rounded-lg p-6 h-full flex flex-col border border-outline-variant/10">
+                        <div class="mb-6 flex justify-between items-start">
+                            <div
+                                class="w-14 h-14 rounded-lg bg-surface-bright flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-3xl text-secondary">cloud</span>
+                            </div>
+                            <span
+                                class="font-label text-[10px] font-bold tracking-widest text-on-surface-variant uppercase bg-surface-variant px-2 py-1 rounded">Válido</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-2">Oracle Cloud Infrastructure 2025 Certified
+                            Foundations Associate</h3>
+                        <p class="font-label text-xs text-secondary-dim font-bold mb-4">Oracle</p>
+                        <p class="text-on-surface-variant text-sm mb-6 grow">Fundamentos de nube, servicios esenciales y
+                            arquitectura base de Oracle Cloud Infrastructure.</p>
+                        <div class="pt-4 border-t border-outline-variant/10 flex items-center justify-between">
+                            <span class="text-[10px] font-label text-outline uppercase tracking-wider">2025</span>
+                            <a class="text-primary hover:underline text-sm font-medium flex items-center gap-1"
+                                href="#">
+                                Ver Credencial
+                                <span class="material-symbols-outlined text-xs">open_in_new</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de certificacion 2: Datos profesionales -->
+                <div
+                    class="bg-surface-container-low p-1 rounded-xl group transition-all duration-300 hover:shadow-xl hover:shadow-primary/5">
+                    <div
+                        class="bg-surface-container rounded-lg p-6 h-full flex flex-col border border-outline-variant/10">
+                        <div class="mb-6 flex justify-between items-start">
+                            <div
+                                class="w-14 h-14 rounded-lg bg-surface-bright flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-3xl text-primary">analytics</span>
+                            </div>
+                            <span
+                                class="font-label text-[10px] font-bold tracking-widest text-on-surface-variant uppercase bg-surface-variant px-2 py-1 rounded">Válido</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-2">Oracle Cloud Infrastructure 2025 Certified AI
+                            Foundations Associate</h3>
+                        <p class="font-label text-xs text-secondary-dim font-bold mb-4">Oracle</p>
+                        <p class="text-on-surface-variant text-sm mb-6 grow">Bases de inteligencia artificial, machine
+                            learning y servicios de IA aplicados en OCI.</p>
+                        <div class="pt-4 border-t border-outline-variant/10 flex items-center justify-between">
+                            <span class="text-[10px] font-label text-outline uppercase tracking-wider">2025</span>
+                            <a class="text-primary hover:underline text-sm font-medium flex items-center gap-1"
+                                href="#">
+                                Ver Credencial
+                                <span class="material-symbols-outlined text-xs">open_in_new</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de certificacion 3: Django/Python -->
+                <div
+                    class="bg-surface-container-low p-1 rounded-xl group transition-all duration-300 hover:shadow-xl hover:shadow-primary/5">
+                    <div
+                        class="bg-surface-container rounded-lg p-6 h-full flex flex-col border border-outline-variant/10">
+                        <div class="mb-6 flex justify-between items-start">
+                            <div
+                                class="w-14 h-14 rounded-lg bg-surface-bright flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-3xl text-tertiary">code</span>
+                            </div>
+                            <span
+                                class="font-label text-[10px] font-bold tracking-widest text-on-surface-variant uppercase bg-surface-variant px-2 py-1 rounded">Válido</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-2">Oracle Cloud Infrastructure 2025 Certified
+                            Generative AI Professional</h3>
+                        <p class="font-label text-xs text-secondary-dim font-bold mb-4">Oracle</p>
+                        <p class="text-on-surface-variant text-sm mb-6 grow">Diseno, evaluacion y despliegue de
+                            soluciones de IA generativa sobre servicios OCI.</p>
+                        <div class="pt-4 border-t border-outline-variant/10 flex items-center justify-between">
+                            <span class="text-[10px] font-label text-outline uppercase tracking-wider">2025</span>
+                            <a class="text-primary hover:underline text-sm font-medium flex items-center gap-1"
+                                href="#">
+                                Ver Credencial
+                                <span class="material-symbols-outlined text-xs">open_in_new</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de certificacion 4: Microservicios -->
+                <div
+                    class="bg-surface-container-low p-1 rounded-xl group transition-all duration-300 hover:shadow-xl hover:shadow-primary/5">
+                    <div
+                        class="bg-surface-container rounded-lg p-6 h-full flex flex-col border border-outline-variant/10">
+                        <div class="mb-6 flex justify-between items-start">
+                            <div
+                                class="w-14 h-14 rounded-lg bg-surface-bright flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-3xl text-secondary">grid_view</span>
+                            </div>
+                            <span
+                                class="font-label text-[10px] font-bold tracking-widest text-on-surface-variant uppercase bg-surface-variant px-2 py-1 rounded">Válido</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-2">Oracle Cloud Infrastructure 2025 Certified
+                            Multicloud Architect Professional</h3>
+                        <p class="font-label text-xs text-secondary-dim font-bold mb-4">Oracle</p>
+                        <p class="text-on-surface-variant text-sm mb-6 grow">Arquitectura profesional multicloud,
+                            integracion de servicios y patrones de alta disponibilidad.</p>
+                        <div class="pt-4 border-t border-outline-variant/10 flex items-center justify-between">
+                            <span class="text-[10px] font-label text-outline uppercase tracking-wider">2025</span>
+                            <a class="text-primary hover:underline text-sm font-medium flex items-center gap-1"
+                                href="#">
+                                Ver Credencial
+                                <span class="material-symbols-outlined text-xs">open_in_new</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de certificacion 5: Dominio SQL -->
+                <div
+                    class="bg-surface-container-low p-1 rounded-xl group transition-all duration-300 hover:shadow-xl hover:shadow-primary/5">
+                    <div
+                        class="bg-surface-container rounded-lg p-6 h-full flex flex-col border border-outline-variant/10">
+                        <div class="mb-6 flex justify-between items-start">
+                            <div
+                                class="w-14 h-14 rounded-lg bg-surface-bright flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-3xl text-primary">database</span>
+                            </div>
+                            <span
+                                class="font-label text-[10px] font-bold tracking-widest text-on-surface-variant uppercase bg-surface-variant px-2 py-1 rounded">Válido</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-2">Oracle Cloud Infrastructure 2025 Certified Data
+                            Science Professional</h3>
+                        <p class="font-label text-xs text-secondary-dim font-bold mb-4">Oracle</p>
+                        <p class="text-on-surface-variant text-sm mb-6 grow">Modelado, entrenamiento y despliegue de
+                            soluciones de ciencia de datos en OCI.</p>
+                        <div class="pt-4 border-t border-outline-variant/10 flex items-center justify-between">
+                            <span class="text-[10px] font-label text-outline uppercase tracking-wider">2025</span>
+                            <a class="text-primary hover:underline text-sm font-medium flex items-center gap-1"
+                                href="#">
+                                Ver Credencial
+                                <span class="material-symbols-outlined text-xs">open_in_new</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de certificacion 6: Huawei HCIA AI -->
+                <div
+                    class="bg-surface-container-low p-1 rounded-xl group transition-all duration-300 hover:shadow-xl hover:shadow-primary/5">
+                    <div
+                        class="bg-surface-container rounded-lg p-6 h-full flex flex-col border border-outline-variant/10">
+                        <div class="mb-6 flex justify-between items-start">
+                            <div
+                                class="w-14 h-14 rounded-lg bg-surface-bright flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-3xl text-primary">psychology</span>
+                            </div>
+                            <span
+                                class="font-label text-[10px] font-bold tracking-widest text-on-surface-variant uppercase bg-surface-variant px-2 py-1 rounded">Válido</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-2">Huawei HCIA AI</h3>
+                        <p class="font-label text-xs text-secondary-dim font-bold mb-4">Huawei</p>
+                        <p class="text-on-surface-variant text-sm mb-6 grow">Certificacion en fundamentos de
+                            inteligencia artificial y aplicacion de modelos en entornos empresariales.</p>
+                        <div class="pt-4 border-t border-outline-variant/10 flex items-center justify-between">
+                            <span class="text-[10px] font-label text-outline uppercase tracking-wider">2023</span>
+                            <a class="text-primary hover:underline text-sm font-medium flex items-center gap-1"
+                                href="https://www.linkedin.com/in/alejandro-abarca-esteban-268a88362/"
+                                rel="noopener noreferrer" target="_blank">
+                                Ver Credencial
+                                <span class="material-symbols-outlined text-xs">open_in_new</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de certificacion 7: Huawei HCIA Cloud Service -->
+                <div
+                    class="bg-surface-container-low p-1 rounded-xl group transition-all duration-300 hover:shadow-xl hover:shadow-primary/5">
+                    <div
+                        class="bg-surface-container rounded-lg p-6 h-full flex flex-col border border-outline-variant/10">
+                        <div class="mb-6 flex justify-between items-start">
+                            <div
+                                class="w-14 h-14 rounded-lg bg-surface-bright flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-3xl text-secondary">cloud</span>
+                            </div>
+                            <span
+                                class="font-label text-[10px] font-bold tracking-widest text-on-surface-variant uppercase bg-surface-variant px-2 py-1 rounded">Válido</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-2">Huawei HCIA Cloud Service</h3>
+                        <p class="font-label text-xs text-secondary-dim font-bold mb-4">Huawei</p>
+                        <p class="text-on-surface-variant text-sm mb-6 grow">Competencias en servicios cloud,
+                            arquitectura basica y operacion de infraestructura en la nube.</p>
+                        <div class="pt-4 border-t border-outline-variant/10 flex items-center justify-between">
+                            <span class="text-[10px] font-label text-outline uppercase tracking-wider">2023</span>
+                            <a class="text-primary hover:underline text-sm font-medium flex items-center gap-1"
+                                href="https://www.linkedin.com/in/alejandro-abarca-esteban-268a88362/"
+                                rel="noopener noreferrer" target="_blank">
+                                Ver Credencial
+                                <span class="material-symbols-outlined text-xs">open_in_new</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de pagina -->
+    <footer class="bg-slate-950 w-full py-12 border-t border-slate-900">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center px-8 max-w-7xl mx-auto gap-6">
+            <div class="flex gap-8">
+                <a class="font-['Inter'] text-sm text-slate-500 hover:text-indigo-400 transition-colors"
+                    href="https://github.com/sido-idos" rel="noopener noreferrer" target="_blank">GitHub</a>
+                <a class="font-['Inter'] text-sm text-slate-500 hover:text-indigo-400 transition-colors"
+                    href="https://www.linkedin.com/in/alejandro-abarca-esteban-268a88362/" rel="noopener noreferrer"
+                    target="_blank">LinkedIn</a>
+            </div>
+            <div class="w-full md:w-auto text-right font-['Inter'] text-sm text-slate-500">
+                © 2024 Alejandro Abarca. Creado con el framework Tailwind CSS.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
